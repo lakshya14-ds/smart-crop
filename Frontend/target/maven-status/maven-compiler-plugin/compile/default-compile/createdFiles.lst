@@ -1,0 +1,17 @@
+com\smartcrop\view\SoilDataView.class
+com\smartcrop\view\CropRecommendationsView.class
+com\smartcrop\model\WeatherData$ForecastDay.class
+com\smartcrop\view\ReportsView.class
+com\smartcrop\view\FertilizerView.class
+com\smartcrop\Launcher.class
+com\smartcrop\DashboardApp.class
+com\smartcrop\model\SoilData.class
+com\smartcrop\view\LoginView.class
+com\smartcrop\MainApp.class
+com\smartcrop\model\CropRecommendation.class
+module-info.class
+com\smartcrop\view\IrrigationView.class
+com\smartcrop\view\WeatherView.class
+com\smartcrop\view\SeparatorUtil.class
+com\smartcrop\model\WeatherData.class
+com\smartcrop\view\ReportsView$Report.class

@@ -1,6 +1,96 @@
-# Smart Crop Advisory System — JavaFX
+# 🌱 Smart Crop Advisory System -JavaFx
 
-A full JavaFX conversion of the React/TypeScript Smart Crop Advisory frontend.
+A modern **Crop Recommendation & Advisory System** built using JavaFX and Supabase.  
+This application helps farmers and users make **data-driven decisions** based on soil conditions and real-time weather.
+
+---
+
+## 🚀 Features
+
+### 🌾 Crop Recommendations
+- Intelligent crop suggestions based on:
+  - Soil data (pH, nutrients, moisture, etc.)
+  - Real-time weather data
+- Multi-level recommendations:
+  - 🟢 Excellent Match
+  - 🔵 Good Match
+  - 🟡 Fair Match
+
+---
+
+### 🌦 Real-Time Weather Integration
+- Fetches live weather data using API
+- Displays:
+  - Temperature 🌡
+  - Humidity 💧
+  - Rainfall 🌧
+  - Wind Speed 💨
+- 5-day forecast support (optional/extendable)
+
+---
+
+### 🌱 Soil Data Management
+- Input and store soil parameters:
+  - Soil type
+  - pH level
+  - Nitrogen, Phosphorus, Potassium
+  - Organic matter
+  - Moisture
+- Stored securely in Supabase database
+
+---
+
+### 📊 Smart Advisory System
+- 💧 Irrigation suggestions
+- 🌿 Fertilizer recommendations
+- 📈 Condition analysis (soil + weather)
+
+---
+
+### 📄 Report Generation
+- Generate **Comprehensive Reports**
+- Includes:
+  - Soil data
+  - Weather data
+  - Crop recommendations
+- Export as **PDF**
+- Stored and retrievable from database
+
+---
+
+### 🎨 Modern UI/UX
+- Built using JavaFX
+- Clean dashboard layout
+- Card-based design
+- Responsive and user-friendly interface
+
+---
+
+## 🛠 Tech Stack
+
+### 💻 Frontend
+- JavaFX
+- CSS (Custom styling)
+
+### ⚙️ Backend
+- Java (Core + OOP)
+- REST API Integration
+
+### ☁️ Database
+- Supabase (PostgreSQL)
+- RESTful data operations
+
+### 🌐 APIs
+- Weather API (OpenWeatherMap)
+
+### 📄 PDF Generation
+- iText PDF Library
+
+### 🔧 Build Tool
+- Maven
+
+---
+
 
 ## Requirements
 - Java 17 or newer (Java 21 recommended)
